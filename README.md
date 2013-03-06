@@ -54,7 +54,8 @@ First:
 
 Then, for a stand-alone browser client:
 
-1. Navigate to `http://path/to/dojo2-teststack/client.html?config=mid/of/teststack/config`
+1. `node dojo2-teststack/runner --config=mid/of/teststack/config --proxyOnly`
+1. Navigate to `http://localhost:9000/dojo2-teststack/client.html?config=mid/of/teststack/config&suites=mid/of/suite`
 1. View console
 1. Fix bugs
 
